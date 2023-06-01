@@ -74,6 +74,9 @@ font-family: 'roboto';
   color: rgb(121, 115, 115);
   font-family: 'roboto';
   font-size: small;
+  flex-direction: column;
+  column-count: 2;
+  justify-content: space-evenly;
 }
 .titulo{
   font-family: 'roboto';
