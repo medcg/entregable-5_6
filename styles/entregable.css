@@ -1,8 +1,11 @@
 .nav-container {
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2cm;
+    
   }
+
   
   .menu {
     display: flex;
@@ -23,3 +26,61 @@
     cursor: pointer;
     font-weight: bold;
   }
+  body {
+display: flex;
+flex-direction: column;
+  }
+  main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+  }
+  .logo{
+    float: left;
+  }
+article{
+  flex: 3;
+  
+}
+aside{
+  flex: 2;
+  border: 1px;
+}
+.registro{
+  float: right;
+  background-color: rgb(75, 7, 139);
+  color: white;
+}
+.conectarse{
+  float: right ;
+  border: none;
+}
+.enviar{
+  background-color: rgb(75, 7, 139);
+ color: white;
+}
+.header{
+justify-content: space-between;
+background-color: rgb(250, 250, 255);
+}
+.texto{
+  color: rgb(121, 115, 115);
+  font-family: 'roboto';
+  text-align: justify;
+  font-size: 22cap;
+}
+.contacto{
+  color: rgb(121, 115, 115);
+  font-family: 'roboto';
+  font-size: small;
+}
+.titulo{
+  font-family: 'roboto';
+  
+}
+article{
+  background-color: rgb(250, 250, 255);
+}
+aside{
+  font-family: 'roboto';
+}
