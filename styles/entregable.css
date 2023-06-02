@@ -51,6 +51,11 @@ article {
 aside {
   flex: 2;
   border: 1px;
+  padding: 100px 0;
+  font-family: 'roboto';
+  border: 3px rgba(238, 238, 238, 0.979) solid;
+  width: 200px;
+  margin: 0 auto;
 }
 
 .registro {
@@ -98,15 +103,6 @@ aside {
 
 article {
   background-color: rgb(250, 250, 255);
-}
-
-aside {
-  padding: 100px 0;
-  font-family: 'roboto';
-  border: 3px rgba(238, 238, 238, 0.979) solid;
-  width: 200px;
-  margin: 0 auto;
-
 }
 
 .first-input {
