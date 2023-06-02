@@ -1,79 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/entregable.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Entregable</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/entregable.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Entregable</title>
 </head>
+
 <body class="works_on_smartphone">
-    <header  class="header container">
-        <div class="logo">
-          <img
-          width="40px"
-            src="./assets/images/logo.jpg"
-            alt="G logo"
-          />
-        </div>
-  
-        <div class="login">
-          <button class="registro" onclick="login('sign up')">Sign Up</button>
-          <button class="conectarse" onclick="login('login')">Login</button>
-        </div>
-        <nav class="nav-container">
-          <div class="menu">
-            <div class="space-menu">Pricing</div>
-            <div class="space-menu">Resources Center</div>
-            <div class="space-menu">About</div>
-            <div class="space-menu">Contact</div>
-          </div>
-        </nav>
-  
-      </header>
-      <main>
-      <article>
-        <h1 class="titulo">Talk to our products <br> analitycs center</h1>
-        <p class="texto">Have questions about pricings, plans, or Grouwtly? Fill out the <br> form and our product analitics expert will be in touch directly.</p>
-        <h3 class="titulo">Our office</h3>
-        <img width="300px" src="./assets/images/oficina.jpg">
-        <p class="texto">Have questions about pricings, plans, or Grouwtly? Fill out the <br> form and our product analitics expert will be in touch directly. </p>
-     <div class="contacto">
-       <h4>United Kingdom</h4>
-       <p>Eastbourne Terrace</p> 
-       <p>Paddington, London</p>
-       <p>W2 6LA UK </p>
-       <p>+44 13 5135 1051</p>
-       <h4>France</h4>
-       <p>266 Place Ernest Granier</p> 
-       <p>34000 Montpellier</p>
-       <p>France</p>
-       <p>+33 5 12 18 21 86</p>
+  <header class="header container">
+    <div class="logo">
+      <img width="40px" src="./assets/images/logo.jpg" alt="G logo" />
     </div>
+
+    <div class="login">
+      <button class="registro" onclick="login('sign up')">Sign Up</button>
+      <button class="conectarse" onclick="login('login')">Login</button>
+    </div>
+    <nav class="nav-container">
+      <div class="menu">
+        <div class="space-menu">Pricing</div>
+        <div class="space-menu">Resources Center</div>
+        <div class="space-menu">About</div>
+        <div class="space-menu">Contact</div>
+      </div>
+    </nav>
+
+  </header>
+  <main>
+    <article>
+      <h1 class="titulo">Talk to our products <br> analitycs center</h1>
+      <p class="texto">Have questions about pricings, plans, or Grouwtly? Fill out the <br> form and our product
+        analitics expert will be in touch directly.</p>
+      <h3 class="titulo">Our office</h3>
+      <img width="300px" src="./assets/images/oficina.jpg">
+      <p class="texto">Have questions about pricings, plans, or Grouwtly? Fill out the <br> form and our product
+        analitics expert will be in touch directly. </p>
+      <div class="contacto">
+        <h4>United Kingdom</h4>
+        <p>Eastbourne Terrace</p>
+        <p>Paddington, London</p>
+        <p>W2 6LA UK </p>
+        <p>+44 13 5135 1051</p>
+        <h4>France</h4>
+        <p>266 Place Ernest Granier</p>
+        <p>34000 Montpellier</p>
+        <p>France</p>
+        <p>+33 5 12 18 21 86</p>
+      </div>
     </article>
     <aside>
-<form>
-  <label for="first name">First Name</label>
-  <input id="first name" name="first name" placeholder="First Name"/>
-<br>
-<label for="last name">Last Name</label>
- <input id="last name" name="last name" placeholder="Last Name"/>
- <br>
- <label for="email address">Email Address</label>
- <input id="email address" name="email address" placeholder="Email Address"/>
- <br>
- <label for="phone number">Phone Number</label>
- <input id="phone number" name="phone number" placeholder="Phone Number"/>
-<br>
-<h4>Message<h4>
-<textarea cols="40" rows="6" id="message" name="message" placeholder="Message"></textarea>
-<br>
-<div class="login"> <button class="enviar" onclick="login('send')">Send</button>
-</form>
+      <form>
+        <div class="first-input">
+          <div class="form-group">
+            <label for="first_name">First Name</label>
+            <input id="first_name" name="first_name" placeholder="First_Name" />
+          </div>
+          
+          <div class="form-group">
+            <label for="last_name">Last Name</label>
+            <input id="last_name" name="last_name" placeholder="Last_Name" />
+          </div>
+        </div>
+        
+        <div class="form-group">
+        <label for="email_address">Email Address</label>
+        <input id="email_address" name="email address" placeholder="Email Address" />
+      </div>
+        
+        <div class="form-group">
+        <label for="phone number">Phone Number</label>
+        <input id="phone number" name="phone number" placeholder="Phone Number" />
+      </div>
+      
+        <h4>Message<h4>
+            <textarea cols="40" rows="6" id="message" name="message" placeholder="Message"></textarea>
+            <br>
+            <div class="login"> <button class="enviar" onclick="login('send')">Send</button>
+      </form>
     </aside>
-    </main>
+  </main>
 </body>
+
 </html>
