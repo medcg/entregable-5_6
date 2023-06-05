@@ -50,7 +50,7 @@ article {
 
 aside {
   flex: 2;
-  border: 2px;
+  border: 3px;
   padding: 50px 0;
   font-family: 'roboto';
   border: 3px rgba(238, 238, 238, 0.979) solid;
