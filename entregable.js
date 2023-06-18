@@ -1,7 +1,7 @@
 const enviar= ()=>{
-    document.querySelector('enviar').addEventListener(
+    document.querySelector(".enviar.").addEventListener(
         )
-        "click",function(){const form= document.queryselector("form");
-        
+        "click",function(){const form= document.queryselector(".formulario.");
+        document.querySelector("")
         }
 }
